@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_learn"
+            android:title="Learn" />
+        <item
+            android:id="@+id/nav_stock_market"
+            android:icon="@drawable/ic_stock"
+            android:title="Stock Market" />
+        <item
+            android:id="@+id/nav_payments"
+            android:icon="@drawable/ic_pay"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_play"
+            android:icon="@drawable/ic_play"
+            android:title="Play" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_settings"
+            android:title="Tools" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_calculator"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+        </menu>
+    </item>
+
+</menu>
